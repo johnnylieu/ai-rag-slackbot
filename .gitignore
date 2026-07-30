@@ -1,0 +1,17 @@
+# Environment variables and secrets
+.env
+*.env
+
+# Python virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# VS Code settings (optional, personal editor config)
+.vscode/
+
+# OS junk files
+.DS_Store
+
+.pdf
+.json
