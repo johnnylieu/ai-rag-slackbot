@@ -1,4 +1,5 @@
 # Docs Bot POC
+[![Watch the demo video](https://img.youtube.com/vi/23-lgMneJ5U/0.jpg)](https://youtu.be/23-lgMneJ5U)
 
 A proof-of-concept Slack bot that answers questions using only the documentation provided to it. Each Slack channel is mapped to its own folder of source documents (PDFs). The bot only answers from the documents assigned to the channel a question was asked in, and explicitly says so when the answer isn't covered.
 
