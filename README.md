@@ -8,7 +8,7 @@ Built as a proof of concept for internal evaluation. One bot, multiple channels,
 
 ## How it works
 
-1. PDFs are dropped into a folder under `documents/<channel-name>/`.
+1. PDFs are dropped into a folder under `documents/<channel-name>/`
 2. `build_index.py` extracts text from every PDF in that folder, splits it into overlapping chunks, and generates an embedding (a numerical representation of meaning) for each chunk using OpenAI's `text-embedding-3-small`. The result is saved to `documents/<channel-name>/index.json`.
 3. `app.py` runs the actual Slack bot. It maps each configured Slack channel ID to its corresponding index file and loads all indexes once at startup.
 4. When someone `@mentions` the bot in a configured channel, it:
