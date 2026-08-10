@@ -6,7 +6,7 @@
 
 A proof-of-concept Slack bot that answers questions using only the documentation provided to it. Each Slack channel is mapped to its own folder of source documents (PDFs). The bot only answers from the documents assigned to the channel a question was asked in, and explicitly says so when the answer isn't covered.
 
-Built as a proof of concept for internal evaluation. One bot, multiple channels, each channel scoped to its own knowledge base. Multilingual feature in Karhcer channel for our international clients/techs
+Built as a proof of concept for internal evaluation. One bot, multiple channels, each channel scoped to its own knowledge base. Multilingual feature in Karhcer channel for our international clients/techs.
 
 ## How it works
 
